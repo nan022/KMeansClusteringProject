@@ -14,7 +14,7 @@ with st.sidebar:
 
     st.header("Machine Learning - 3 TI E")
     # st.caption("Dibuat Oleh") 
-    name = '<p color:Black; font-size: 20px;>Nama Kelompok:</b><br/>1. Mistia Adinda Dwi Syahputri<br/>2. Putri Ridha Tasmara<br/>3. Faris Upangga </p>'
+    name = '<p color:Black; font-size: 20px;>Nama Kelompok:</b><br/>1. Mistia Adinda Dwi Syahputri<br/>2. Putri Ridha Tasmara<br/>3. Zahwa Ainnayya Abdullah </p>'
     st.markdown(name, unsafe_allow_html=True)
 
 df=pd.read_csv('WineQT.csv')
